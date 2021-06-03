@@ -3,7 +3,7 @@
     @name           DuckDuckGo (Logo & Search Bar)
     @namespace      github.com/Gabri-kun/DuckDuckGo-Logo-Search-Bar
     @version        1.0.0
-    @description    Just small changes to the DuckDuckGo Website
+    @description    Small changes to the DuckDuckGo Website
     @author Gabri-kun
     ==/UserStyle== */
     }
@@ -12,7 +12,7 @@
     .dark-bg .logo_homepage     /* Logo for home page */
     {
         background-image: url("https://external-content.duckduckgo.com/iu/?u=https://i.postimg.cc/MGJ5LJ7L/suguha-kirigaya-duckduckgo-logo.png");
-        width: 415px;
+        width: 414px;
         height: 500px;
         margin-left: -50px;
         margin-bottom: -89px;
