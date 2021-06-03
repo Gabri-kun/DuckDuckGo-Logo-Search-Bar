@@ -1,0 +1,68 @@
+@-moz-document domain("https://duckduckgo.com/") {
+    /* ==UserStyle==
+    @name           DuckDuckGo (Logo & Search Bar)
+    @namespace      github.com/Gabri-kun/DuckDuckGo-Logo-Search-Bar
+    @version        1.0
+    @description    Small changes to the DuckDuckGo Website
+    @author Gabri-kun
+    ==/UserStyle== */
+    }
+    
+    @-moz-document url-prefix("https://duckduckgo") {
+    .dark-bg .logo_homepage     /* Logo for home page */
+    {
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https://i.postimg.cc/MGJ5LJ7L/suguha-kirigaya-duckduckgo-logo.png");
+        width: 414px;
+        height: 500px;
+        margin-left: -50px;
+        margin-bottom: -89px;
+        margin-top: -229px;
+    }
+    
+    .dark-header .header__logo, .header__praise, .header__avatar    /* Logo for search page */
+    {
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https://i.postimg.cc/RCQzyXxs/suguha-kirigaya.png");
+        background-size: 54px 100px;
+        margin-top: 23px;
+        width: 60px;
+        height: 100px;
+    }
+    
+    .search, .search--adv   /* Rounded corners on search bar */
+    {
+        border-radius: 23px;
+        height: 2.8em;
+    }
+    
+    .search__button, .search__button--hero  /* Rounded corners on search button */
+    {
+        border-radius: 0 23px 23px 0;
+    }
+    
+    .search__autocomplete   /* Rounded bottom corners for the autocomplete-suggestions */
+    {
+        border-radius: 0 0 23px 23px;
+    }
+    
+    .search.has-suggestions, .search--adv.has-suggestions   /* Rounded top corners for the search bar when autocomplete-suggestions pops up */
+    {
+        border-radius: 23px 23px 0 0;
+    }
+    
+    .has-suggestions .search__button, .has-suggestions .search__button--hero    /* Rounded corners on the right side for the search button when autocomplete-suggestions pops up */
+    {
+        border-radius: 0 23px 4px 0;
+    }
+    
+    .tag-home   /* Hide default privacy text */
+    {
+        visibility: hidden;
+    }
+    
+    .tag-home:before    /* Replace privacy text */
+    {
+        content: 'Search on me Senpai! UwU (/≧▽≦)/';
+        visibility: visible;
+    }
+    
+    }
