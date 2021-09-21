@@ -64,5 +64,10 @@
         content: 'Search on me Senpai! UwU (/≧▽≦)/';
         visibility: visible;
     }
+        
+    .header__clickable
+    {
+        visibility: hidden;
+    }
     
     }
